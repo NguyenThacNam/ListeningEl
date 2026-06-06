@@ -1,0 +1,21 @@
+# Node
+app/node_modules/
+app/dist/
+node_modules/
+dist/
+
+# TS / Vite build artifacts
+*.tsbuildinfo
+app/vite.config.js
+app/vite.config.d.ts
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude / editor / OS
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+*.local
