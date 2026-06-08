@@ -118,7 +118,7 @@ const petTests: Test[] = [
     picture: {
       intro: 'Nghe 5 đoạn hội thoại ngắn, chọn tranh đúng (A/B/C).',
       questions: [
-        { n: 1, prompt: 'What music will they have at the party?', options: abc('Guitar', 'Piano', 'Đĩa nhạc'), answer: 'B' },
+        { n: 1, prompt: 'What music will they have at the party?', options: abc('Guitar', 'Piano', 'Đĩa nhạc'), answer: 'C' },
         { n: 2, prompt: 'When will the man go on holiday?', options: abc('June', 'July', 'August'), answer: 'B' },
         { n: 3, prompt: 'What will the weather be like tomorrow?', options: abc('Nắng', 'Gió', 'Mưa'), answer: 'B' },
         { n: 4, prompt: "What colour is Mary's coat?", options: abc('Yellow', 'Blue', 'Brown'), answer: 'A' },
@@ -135,7 +135,7 @@ const petTests: Test[] = [
         { n: 2, prompt: "When is the man's appointment?", options: abc('Wednesday', 'Thursday', 'Friday'), answer: 'C' },
         { n: 3, prompt: "Which is the aunt's postcard?", options: abc('Tranh A', 'Tranh B', 'Tranh C'), answer: 'C' },
         { n: 4, prompt: 'What time will the plane to Milan leave?', options: abc('01:00', '07:15', '08:15'), answer: 'C' },
-        { n: 5, prompt: "What does Joe's father do?", options: abc('Tranh A', 'Tranh B', 'Tranh C'), answer: 'B' },
+        { n: 5, prompt: "What does Joe's father do?", options: abc('Tranh A', 'Tranh B', 'Tranh C'), answer: 'A' },
       ],
     },
   },
